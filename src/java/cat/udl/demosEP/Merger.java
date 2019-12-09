@@ -11,7 +11,6 @@ public class Merger {
         lrest = new ArrayList<>();
     }
 
-
     public boolean isEmpty() {
         return lrest.isEmpty();
     }
