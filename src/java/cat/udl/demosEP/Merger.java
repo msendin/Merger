@@ -4,22 +4,18 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Merger {
-    List<Integer> lrest;
+class Merger {
+    private List<Integer> lrest;
 
     Merger() {
         lrest = new ArrayList<>();
     }
 
-
-
-
-
-    public boolean isEmpty() {
+    boolean isEmpty() {
         return lrest.isEmpty();
     }
 
-    public List<Integer> mergeSorted(List<Integer> list1, List<Integer> list2) throws IllegalArgumentException {
+    List<Integer> mergeSorted(List<Integer> list1, List<Integer> list2) throws IllegalArgumentException {
       int i, il1=0, il2=0;
 
       if (list1.size() > 1) {
@@ -36,9 +32,6 @@ public class Merger {
             }
         }
 
-
-
-
       while (il1<list1.size() && il2<list2.size()) {
           if (list1.get(il1) < list2.get(il2)) {
               lrest.add(list1.get(il1));
@@ -54,15 +47,15 @@ public class Merger {
           }
       }
       if (il1<list1.size())
-          while (il1<list1.size()) {
-            lrest.add(list1.get(il1));
-            il1++;
-          }
-      else if (il1<list1.size())
-          while (il2<list2.size()) {
+          do {
+              lrest.add(list1.get(il1));
+              il1++;
+          } while (il1<list1.size());
+      else if (il2<list2.size())
+          do {
               lrest.add(list2.get(il2));
               il2++;
-          }
+          } while (il2<list2.size());
       return lrest;
     }
 }
