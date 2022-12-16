@@ -28,13 +28,22 @@ class MergerTest {
     }
 
     @Test
+    void mergeSortedTestOneEmpty() throws IllegalArgumentException {
+        List<Integer> list1 = new ArrayList<>();
+        List<Integer> list2 = Arrays.asList(1,3,5,7);
+        List<Integer> listRes = Arrays.asList(1,3,5,7);
+
+        assertEquals(listRes, merger.mergeSorted(list1,list2));
+    }
+
+    @Test
     void getIllegalArgumentTest() {
         List<Integer> list1 = Arrays.asList(2,1,6,8);
         List<Integer> list2 = Arrays.asList(9,3,5,7);
 
         assertThrows(IllegalArgumentException.class,
                 () -> merger.mergeSorted(list1,list2));
-        System.out.println("Se ha lanzado la excepción IllegalArgumentException");
+        System.out.println("Se ha lanzado la excepción IllegalArgumentException, tal y como se esperaba");
     }
 
     @Test

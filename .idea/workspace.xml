@@ -12,11 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f01647bf-6c48-4e98-a8e6-73f8cce5ef61" name="Default Changelist" comment="Added a Main class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Merger/cat/udl/demosEP/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Merger/cat/udl/demosEP/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Merger/cat/udl/demosEP/Merger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Merger/cat/udl/demosEP/Merger.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/Merger/cat/udl/demosEP/MergerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Merger/cat/udl/demosEP/MergerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/cat/udl/demosEP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/cat/udl/demosEP/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/cat/udl/demosEP/Merger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/cat/udl/demosEP/Merger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/cat/udl/demosEP/MergerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/cat/udl/demosEP/MergerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +51,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576584405378" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Dictionary" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -68,7 +65,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MergerTest">
+  <component name="RunManager" selected="JUnit.All in Merger">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cat.udl.demosEP.Main" />
       <module name="Merger" />
@@ -101,6 +98,12 @@
     </configuration>
     <configuration name="MergerTest.checkEmptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Merger" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cat.udl.demosEP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="cat.udl.demosEP" />
       <option name="MAIN_CLASS_NAME" value="cat.udl.demosEP.MergerTest" />
       <option name="METHOD_NAME" value="checkEmptyTest" />
@@ -109,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergerTest.getIllegalArgumentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergerTest.mergeSortedTestOneEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Merger" />
       <extension name="coverage">
         <pattern>
@@ -119,26 +122,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="cat.udl.demosEP" />
       <option name="MAIN_CLASS_NAME" value="cat.udl.demosEP.MergerTest" />
-      <option name="METHOD_NAME" value="getIllegalArgumentTest" />
+      <option name="METHOD_NAME" value="mergeSortedTestOneEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MergerTest" />
-      <item itemvalue="JUnit.MergerTest.checkEmptyTest" />
-      <item itemvalue="JUnit.All in Merger" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.MergerTest.getIllegalArgumentTest" />
+      <item itemvalue="JUnit.MergerTest" />
+      <item itemvalue="JUnit.All in Merger" />
+      <item itemvalue="JUnit.MergerTest.mergeSortedTestOneEmpty" />
+      <item itemvalue="JUnit.MergerTest.checkEmptyTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MergerTest" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in Merger" />
-        <item itemvalue="JUnit.MergerTest.getIllegalArgumentTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MergerTest.checkEmptyTest" />
+        <item itemvalue="JUnit.MergerTest.mergeSortedTestOneEmpty" />
+        <item itemvalue="JUnit.MergerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575967499841</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added a Main class">
+      <created>1639748331722</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639748331722</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
