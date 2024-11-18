@@ -28,7 +28,7 @@ class MergerTest {
     }
 
     @Test
-    void mergeSortedTestOneEmpty() throws IllegalArgumentException {
+    void mergeSortedOneEmptyTest() throws IllegalArgumentException {
         List<Integer> list1 = new ArrayList<>();
         List<Integer> list2 = Arrays.asList(1,3,5,7);
         List<Integer> listRes = Arrays.asList(1,3,5,7);

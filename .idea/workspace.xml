@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -10,11 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f01647bf-6c48-4e98-a8e6-73f8cce5ef61" name="Default Changelist" comment="Added a Main class">
+    <list default="true" id="f01647bf-6c48-4e98-a8e6-73f8cce5ef61" name="Default Changelist" comment="Added a System.out message">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Merger/cat/udl/demosEP/MergerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Merger/cat/udl/demosEP/MergerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/cat/udl/demosEP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/cat/udl/demosEP/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/cat/udl/demosEP/MergerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/cat/udl/demosEP/MergerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Merger/cat/udl/demosEP/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Merger/cat/udl/demosEP/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +34,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-66" />
     <option name="y" value="78" />
@@ -44,19 +52,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576584405378" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Montse/Desktop/MaterialClasses/EP/Problemes-Testing/PrintableReceipt&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="cat.udl.demosEP" />
@@ -65,7 +65,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Merger">
+  <component name="RunManager" selected="JUnit.MergerTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cat.udl.demosEP.Main" />
       <module name="Merger" />
@@ -137,11 +137,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in Merger" />
+        <item itemvalue="JUnit.MergerTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in Merger" />
         <item itemvalue="JUnit.MergerTest.checkEmptyTest" />
         <item itemvalue="JUnit.MergerTest.mergeSortedTestOneEmpty" />
-        <item itemvalue="JUnit.MergerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639748331722</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added a System.out message">
+      <created>1671191303310</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671191303310</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -193,13 +200,13 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit 9" />
     <MESSAGE value="commit 10" />
     <MESSAGE value="Added a Main class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a Main class" />
+    <MESSAGE value="Added a System.out message" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a System.out message" />
   </component>
   <component name="masterDetails">
     <states>
