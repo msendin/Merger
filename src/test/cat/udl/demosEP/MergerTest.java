@@ -37,7 +37,7 @@ class MergerTest {
     }
 
     @Test
-    void getIllegalArgumentTest() {
+    void getIllegalArgumentExceptionTest() {
         List<Integer> list1 = Arrays.asList(2,1,6,8);
         List<Integer> list2 = Arrays.asList(9,3,5,7);
 
